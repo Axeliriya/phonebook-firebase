@@ -1,0 +1,13 @@
+.container {
+  display: block;
+  width: 330px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@media screen and (min-width: 670px) {
+  .container {
+    display: flex;
+    width: 630px;
+  }
+}

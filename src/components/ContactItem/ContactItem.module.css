@@ -1,0 +1,66 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding: 0;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+}
+
+.more {
+  fill: rgba(0, 0, 0, 0.6);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 30px;
+}
+
+.more:hover {
+  fill: rgb(0, 0, 0);
+}
+
+.del {
+  fill: rgba(175, 76, 76, 0.8);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.del:hover {
+  fill: rgb(175, 76, 76);
+}
+
+.item {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  background-color: rgb(242, 242, 242, 0.5);
+}
+
+.link {
+  text-decoration: none;
+  color: dodgerblue;
+}
+
+.name {
+  display: block;
+  margin-right: 5px;
+  padding: 5px 0;
+}
+
+.number {
+  display: block;
+  padding: 5px 0;
+}
